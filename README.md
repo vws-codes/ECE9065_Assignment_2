@@ -40,25 +40,25 @@ Base Dev Repo where I was making commits: https://github.com/vws-codes/ECE9065_A
 ##### Kindly read the given readme to understand about my commit history and messages.
 
 - created different branches with valid version names
-![branches](https://github.com/ECE9065-2024-UWO/ece9065-24-lab2-assignment-vws-codes/blob/main/assets/images/screenshots/assignment-2/branches.png)
+![branches](https://github.com/vws-codes/ECE9065_Assignment_2/blob/main/assets/images/screenshots/assignment-2/branches.png)
 
 - created various pull requests
-![prs](https://github.com/ECE9065-2024-UWO/ece9065-24-lab2-assignment-vws-codes/blob/main/assets/images/screenshots/assignment-2/pullrequests.png)
+![prs](https://github.com/vws-codes/ECE9065_Assignment_2/blob/main/assets/images/screenshots/assignment-2/pullrequests.png)
 
 - PR # 1
-![pr1](https://github.com/ECE9065-2024-UWO/ece9065-24-lab2-assignment-vws-codes/blob/main/assets/images/screenshots/assignment-2/pr1.png)
+![pr1](https://github.com/vws-codes/ECE9065_Assignment_2/blob/main/assets/images/screenshots/assignment-2/pr1.png)
 
 - PR # 2
-![pr2](https://github.com/ECE9065-2024-UWO/ece9065-24-lab2-assignment-vws-codes/blob/main/assets/images/screenshots/assignment-2/pr2.png)
+![pr2](https://github.com/vws-codes/ECE9065_Assignment_2/blob/main/assets/images/screenshots/assignment-2/pr2.png)
 
 - PR # 3
-![pr3](https://github.com/ECE9065-2024-UWO/ece9065-24-lab2-assignment-vws-codes/blob/main/assets/images/screenshots/assignment-2/pr3.png)
+![pr3](https://github.com/vws-codes/ECE9065_Assignment_2/blob/main/assets/images/screenshots/assignment-2/pr3.png)
 
 - PR # 4
-![pr4](https://github.com/ECE9065-2024-UWO/ece9065-24-lab2-assignment-vws-codes/blob/main/assets/images/screenshots/assignment-2/pr4.png)
+![pr4](https://github.com/vws-codes/ECE9065_Assignment_2/blob/main/assets/images/screenshots/assignment-2/pr4.png)
 
 - PR # 5
-![pr5](https://github.com/ECE9065-2024-UWO/ece9065-24-lab2-assignment-vws-codes/blob/main/assets/images/screenshots/assignment-2/pr5.png)
+![pr5](https://github.com/vws-codes/ECE9065_Assignment_2/blob/main/assets/images/screenshots/assignment-2/pr5.png)
 
 
 ## Future Scopes:
