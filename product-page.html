@@ -95,7 +95,7 @@
             const productId = getProductIdFromUrl();
             if (!productId) return;
 
-            const product = laptops[Object.keys(laptops).find(key => laptops[key].id === productId)];
+            const product = products[Object.keys(products).find(key => products[key].id === productId)];
             if (!product) return;
 
             document.title = product.title;
@@ -136,7 +136,7 @@
                 event.preventDefault();
                 handleAddToShoppingCart(`${product.id}`)
                 addProductToCartContainerComponent();
-                updatecartContainerToPaySpan(GetFloatValue(laptops[product.id].price), 'plus')
+                updatecartContainerToPaySpan(GetFloatValue(products[product.id].price), 'plus')
                 cartContainerToPaySpan.innerHTML = CURRENT_TOTAL;
                 alert(`${product.name} added to cart`)
             })

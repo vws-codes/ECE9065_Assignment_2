@@ -19,7 +19,7 @@ const addProductToCartContainerComponent = () => {
             let newCart = document.createElement('div');
             newCart.classList.add('item');
             newCart.dataset.id = cart.product_name;
-            let info = laptops[cart.product_name];
+            let info = products[cart.product_name];
             newCart.innerHTML = `
                         <div class="image">
                             <img src="${info.img1}" alt="">
@@ -51,7 +51,7 @@ cartContainerProductsList.addEventListener('click', (event) => {
             type = 'plus'
         }
         updateGlobalCartList(product_id, type);
-        // updatecartContainerToPaySpan(GetFloatValue(laptops[product_id].price), type);
+        // updatecartContainerToPaySpan(GetFloatValue(products[product_id].price), type);
         cartContainerToPaySpan.innerHTML = CURRENT_TOTAL;
         addProductToCartContainerComponent();
     }

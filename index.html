@@ -72,8 +72,8 @@
 
             const container = document.getElementById('card-container');
 
-            Object.keys(laptops).forEach(key => {
-                const laptop = laptops[key];
+            Object.keys(products).forEach(key => {
+                const laptop = products[key];
                 if (laptop.product_type != "laptop") {
                     return;
                 }
@@ -111,7 +111,7 @@
                     event.preventDefault();
                     handleAddToShoppingCart(`${laptop.id}`)
                     addProductToCartContainerComponent();
-                    updatecartContainerToPaySpan(GetFloatValue(laptops[laptop.id].price), 'plus')
+                    updatecartContainerToPaySpan(GetFloatValue(products[laptop.id].price), 'plus')
                     cartContainerToPaySpan.innerHTML = CURRENT_TOTAL;
                     alert(`${laptop.name} added to cart`)
                 })

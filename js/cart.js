@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
         cartItemsList.innerHTML = '';
         let totalQuantity = 0;
         CART_ITEMS.forEach(cart => {
-            const productInfo = laptops[cart.product_name];
+            const productInfo = products[cart.product_name];
             totalQuantity += cart.quantity;
             const cartItemDiv = document.createElement('div');
             cartItemDiv.classList.add('cart-item');

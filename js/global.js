@@ -8,7 +8,7 @@ function GetFloatValue(s) {
     return parseFloat(parseFloat(s.replace(/[^0-9.]/g, "")).toFixed(2));
 }
 
-const laptops = {
+const products = {
     "hp": {
         id: "hp",
         product_type: "laptop",
@@ -180,7 +180,7 @@ const updateGlobalCartList = (product_id, type) => {
                 break;
         }
     }
-    updatecartContainerToPaySpan(GetFloatValue(laptops[product_id].price), type);
+    updatecartContainerToPaySpan(GetFloatValue(products[product_id].price), type);
     // updatecartContainerToPaySpan();
     addCartToMemory();
     // addProductToCartContainerComponent();

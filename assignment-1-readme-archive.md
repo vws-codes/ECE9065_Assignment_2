@@ -7,7 +7,7 @@ Student Number: 25142397
 Project is hosted on Github - https://vws-codes.github.io/ECE9065_Assignment_1 \
 Just open that link to view my site
 
-- Creation of basic HTML and CSS project showcasing laptops and accessories ecommerce shop. The site has following features:
+- Creation of basic HTML and CSS project showcasing products and accessories ecommerce shop. The site has following features:
     - Responsive Designs using media queries
     - Special Sale Badge and line through text decorations for items on sale
     - Special arrow button on either side of the item image on home-page. this does not work without js

@@ -75,8 +75,8 @@
         function loadAvailableAccessories() {
             const container = document.getElementById('accessories-card-container');
             
-            Object.keys(laptops).forEach(key => {
-                const accessory = laptops[key];
+            Object.keys(products).forEach(key => {
+                const accessory = products[key];
                 if (accessory.product_type == "laptop") {
                     return;
                 }
@@ -114,7 +114,7 @@
                     event.preventDefault();
                     handleAddToShoppingCart(`${accessory.id}`);
                     addProductToCartContainerComponent();
-                    updatecartContainerToPaySpan(GetFloatValue(laptops[accessory.id].price), 'plus');
+                    updatecartContainerToPaySpan(GetFloatValue(products[accessory.id].price), 'plus');
                     cartContainerToPaySpan.innerHTML = CURRENT_TOTAL;
                     alert(`${accessory.name} added to cart`);
                 });
